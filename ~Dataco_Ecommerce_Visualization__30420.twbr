@@ -1,0 +1,2229 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.IndividualControlFormatting.true...IndividualControlFormatting />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Dataco_Ecommerce_Visualization' path='/workbooks' revision='1.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' inline='true' name='federated.00d990l1b8qw451dkp87o0s8wfk3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataco database' name='excel-direct.0ajd6zc1gtknnu15ufdid0jqmtqc'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Konstant/Documents/Offline_Backup/Documents/Backup/Non_Drive_Files_081225/Projects/Trainings/Portfolio_Projects/Dataco_Ecommerce_Tableau_Visualization_Project/Dataset/Dataco database.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0ajd6zc1gtknnu15ufdid0jqmtqc' name='Dataco (Abhijit database)_Datac' table='[&apos;Dataco (Abhijit database)_Datac$&apos;]' type='table'>
+          <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Additional Order items' ordinal='0' />
+            <column datatype='string' name='Category Name' ordinal='1' />
+            <column datatype='string' name='Customer City' ordinal='2' />
+            <column datatype='string' name='Customer Country' ordinal='3' />
+            <column datatype='string' name='Customer Fname' ordinal='4' />
+            <column datatype='integer' name='Customer Id' ordinal='5' />
+            <column datatype='string' name='Customer Segment' ordinal='6' />
+            <column datatype='string' name='Customer State' ordinal='7' />
+            <column datatype='integer' name='Customer Zipcode' ordinal='8' />
+            <column datatype='string' name='Market' ordinal='9' />
+            <column datatype='integer' name='Order Customer Id' ordinal='10' />
+            <column datatype='date' name='Order Date' ordinal='11' />
+            <column datatype='integer' name='Order Id' ordinal='12' />
+            <column datatype='string' name='Order Region' ordinal='13' />
+            <column datatype='real' name='Order Item Total' ordinal='14' />
+            <column datatype='integer' name='Order Quantity' ordinal='15' />
+            <column datatype='real' name='Product Price' ordinal='16' />
+            <column datatype='real' name='Profit Margin' ordinal='17' />
+            <column datatype='real' name='Profit Per Order' ordinal='18' />
+            <column datatype='real' name='Sales' ordinal='19' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T10001:no:A1:T10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional Order items</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Additional Order items]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Additional Order items</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category Name]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Category Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer City]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Country]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Fname</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Fname]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer Fname</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer Id]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer Id</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Segment]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer Segment</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer State]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer State</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer Zipcode]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Customer Zipcode</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Market]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Market</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Customer Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Customer Id]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Order Customer Id</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Id]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Order Id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order Region]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Order Region</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Item Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Order Item Total]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Order Item Total</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Quantity]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Order Quantity</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Product Price]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Product Price</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit Margin]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Profit Margin</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit Per Order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit Per Order]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Profit Per Order</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[Dataco (Abhijit database)_Datac]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='YTD Sales LOD' datatype='real' name='[Calculation_2140617215874969600]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))} THEN [Sales] END)}' />
+      </column>
+      <column caption='YoY Sales %' datatype='real' name='[Calculation_2140617215878656003]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_2140617215874969600]-[YTD Sales LOD (copy)_2140617215878426626])/[YTD Sales LOD (copy)_2140617215878426626]' />
+      </column>
+      <column caption='YoY Sales Margin' datatype='string' name='[Calculation_2140617215880486916]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_2140617215878656003]&gt;0 THEN &apos;▲&apos; ELSEIF [Calculation_2140617215878656003]&lt;0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='YTD Sales' datatype='real' name='[Calculation_2140617215888695314]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Sales] END' />
+      </column>
+      <column caption='Sales Margin' datatype='string' name='[Calculation_2140617215897862165]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF SUM([Calculation_2140617215888695314])-SUM([YTD Sales (copy)_2140617215897022483])&lt;0 THEN &apos;Less than PY&apos;&#13;&#10;ELSEIF SUM([Calculation_2140617215888695314])-SUM([YTD Sales (copy)_2140617215897022483])&gt;0 THEN &apos;Greater than PY&apos;&#13;&#10;ELSEIF ISNULL(SUM([YTD Sales (copy)_2140617215897022483])) THEN &apos;No Sales in PY&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Positive% Diff' datatype='string' name='[Calculation_2140617215898763286]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [YoY Sales % (copy)_2140617215897235476]&gt;0 THEN &apos;▲&apos; END' />
+      </column>
+      <column caption='No Sales' datatype='string' name='[Calculation_2140617215899283480]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_2140617215897862165]=&apos;No Sales in PY&apos; THEN &apos;No Sales in PY&apos; END' />
+      </column>
+      <column datatype='string' name='[Customer City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Customer Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Customer Id]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Customer State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Customer Zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column datatype='integer' name='[Order Id]' role='dimension' type='ordinal' />
+      <column caption='PYTD Profit LOD ' datatype='real' name='[PYTD Sales LOD  (copy)_2140617215882141702]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))-1} THEN [Profit Per Order] END)}' />
+      </column>
+      <column caption='PYTD Quantity LOD ' datatype='integer' name='[PYTD Sales LOD  (copy)_2140617215885045771]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))-1} THEN [Order Quantity] END)}' />
+      </column>
+      <column caption='Negative% Diff' datatype='string' name='[Positive% Diff (copy)_2140617215899095063]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [YoY Sales % (copy)_2140617215897235476]&lt;0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='PYTD Sales' datatype='real' name='[YTD Sales (copy)_2140617215897022483]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))}-1 THEN [Sales] END' />
+      </column>
+      <column caption='PYTD Sales LOD ' datatype='real' name='[YTD Sales LOD (copy)_2140617215878426626]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))-1} THEN [Sales] END)}' />
+      </column>
+      <column caption='YTD Profit LOD ' datatype='real' name='[YTD Sales LOD (copy)_2140617215881990149]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))} THEN [Profit Per Order] END)}' />
+      </column>
+      <column caption='YTD Quantity LOD' datatype='integer' name='[YTD Sales LOD (copy)_2140617215884816393]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))} THEN [Order Quantity] END)}' />
+      </column>
+      <column caption='% Difference' datatype='real' name='[YoY Sales % (copy)_2140617215897235476]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Calculation_2140617215888695314])-SUM([YTD Sales (copy)_2140617215897022483]))/SUM([YTD Sales (copy)_2140617215897022483])' />
+      </column>
+      <column caption='YoY Profit %' datatype='real' name='[YoY Sales (copy)_2140617215882293255]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([YTD Sales LOD (copy)_2140617215881990149]-[PYTD Sales LOD  (copy)_2140617215882141702])/[PYTD Sales LOD  (copy)_2140617215882141702]' />
+      </column>
+      <column caption='YoY Quantity %' datatype='real' name='[YoY Sales (copy)_2140617215885377549]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([YTD Sales LOD (copy)_2140617215884816393]-[PYTD Sales LOD  (copy)_2140617215885045771])/[PYTD Sales LOD  (copy)_2140617215885045771]' />
+      </column>
+      <column caption='YoY Profit Margin ' datatype='string' name='[YoY Sales Margin (copy)_2140617215882723336]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [YoY Sales (copy)_2140617215882293255]&gt;0 THEN &apos;▲&apos; ELSEIF [YoY Sales (copy)_2140617215882293255]&lt;0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='YoY Quantity Margin' datatype='string' name='[YoY Sales Margin (copy)_2140617215885234188]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [YoY Sales (copy)_2140617215885377549]&gt;0 THEN &apos;▲&apos; ELSEIF [YoY Sales (copy)_2140617215885377549]&lt;0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='Dataco (Abhijit database)_Datac' datatype='table' name='[__tableau_internal_object_id__].[Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_2140617215897862165]' derivation='User' name='[usr:Calculation_2140617215897862165:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Konstant/AppData/Local/Temp/TableauTemp/#TableauTemp_0a3kaoo08m3aed1a1674m0fm64vr.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Additional Order items</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Additional Order items]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Additional Order items</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>106</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>106</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer City</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2041</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Country</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Fname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Fname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Fname</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>955</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Customer Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Id</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25983</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Segment</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer State</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Zipcode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Customer Zipcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Zipcode</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4032</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Market</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Market]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Market</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Customer Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order Customer Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Customer Id</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25983</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Date</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2827</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Id</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52129</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Region</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIE_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Item Total</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Order Item Total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Item Total</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3260</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Quantity</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Product Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product Price</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>199</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit Margin</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit Margin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit Margin</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2752</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit Per Order</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit Per Order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit Per Order</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21568</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Dataco (Abhijit database)_Datac</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>540</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[usr:Calculation_2140617215897862165:nk]' type='palette'>
+            <map to='#309143'>
+              <bucket>&quot;Greater than PY&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;No Sales in PY&quot;</bucket>
+            </map>
+            <map to='#b60a1c'>
+              <bucket>&quot;Less than PY&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ireland&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Dataco (Abhijit database)_Datac' id='Dataco (Abhijit database)!Datac_03367EB288454EBB83A9C20C3EEA8B6C'>
+            <properties context=''>
+              <relation connection='excel-direct.0ajd6zc1gtknnu15ufdid0jqmtqc' name='Dataco (Abhijit database)_Datac' table='[&apos;Dataco (Abhijit database)_Datac$&apos;]' type='table'>
+                <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Additional Order items' ordinal='0' />
+                  <column datatype='string' name='Category Name' ordinal='1' />
+                  <column datatype='string' name='Customer City' ordinal='2' />
+                  <column datatype='string' name='Customer Country' ordinal='3' />
+                  <column datatype='string' name='Customer Fname' ordinal='4' />
+                  <column datatype='integer' name='Customer Id' ordinal='5' />
+                  <column datatype='string' name='Customer Segment' ordinal='6' />
+                  <column datatype='string' name='Customer State' ordinal='7' />
+                  <column datatype='integer' name='Customer Zipcode' ordinal='8' />
+                  <column datatype='string' name='Market' ordinal='9' />
+                  <column datatype='integer' name='Order Customer Id' ordinal='10' />
+                  <column datatype='date' name='Order Date' ordinal='11' />
+                  <column datatype='integer' name='Order Id' ordinal='12' />
+                  <column datatype='string' name='Order Region' ordinal='13' />
+                  <column datatype='real' name='Order Item Total' ordinal='14' />
+                  <column datatype='integer' name='Order Quantity' ordinal='15' />
+                  <column datatype='real' name='Product Price' ordinal='16' />
+                  <column datatype='real' name='Profit Margin' ordinal='17' />
+                  <column datatype='real' name='Profit Per Order' ordinal='18' />
+                  <column datatype='real' name='Sales' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+      <datasources>
+        <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+        <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+        <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]' context='true'>
+        <groupfilter function='level-members' level='[none:Customer Segment:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' context='true'>
+        <groupfilter function='level-members' level='[none:Market:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Category Wise YTD vs PYTD'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+            <column caption='YTD Sales' datatype='real' name='[Calculation_2140617215888695314]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Sales] END' />
+            </column>
+            <column caption='Sales Margin' datatype='string' name='[Calculation_2140617215897862165]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2140617215888695314])-SUM([YTD Sales (copy)_2140617215897022483])&lt;0 THEN &apos;Less than PY&apos;&#13;&#10;ELSEIF SUM([Calculation_2140617215888695314])-SUM([YTD Sales (copy)_2140617215897022483])&gt;0 THEN &apos;Greater than PY&apos;&#13;&#10;ELSEIF ISNULL(SUM([YTD Sales (copy)_2140617215897022483])) THEN &apos;No Sales in PY&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Positive% Diff' datatype='string' name='[Calculation_2140617215898763286]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [YoY Sales % (copy)_2140617215897235476]&gt;0 THEN &apos;▲&apos; END' />
+            </column>
+            <column caption='No Sales' datatype='string' name='[Calculation_2140617215899283480]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_2140617215897862165]=&apos;No Sales in PY&apos; THEN &apos;No Sales in PY&apos; END' />
+            </column>
+            <column datatype='string' name='[Category Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column caption='Negative% Diff' datatype='string' name='[Positive% Diff (copy)_2140617215899095063]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [YoY Sales % (copy)_2140617215897235476]&lt;0 THEN &apos;▼&apos; END' />
+            </column>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='PYTD Sales' datatype='real' name='[YTD Sales (copy)_2140617215897022483]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))}-1 THEN [Sales] END' />
+            </column>
+            <column caption='% Difference' datatype='real' name='[YoY Sales % (copy)_2140617215897235476]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Calculation_2140617215888695314])-SUM([YTD Sales (copy)_2140617215897022483]))/SUM([YTD Sales (copy)_2140617215897022483])' />
+            </column>
+            <column-instance column='[Category Name]' derivation='None' name='[none:Category Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2140617215888695314]' derivation='Sum' name='[sum:Calculation_2140617215888695314:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2140617215897862165]' derivation='User' name='[usr:Calculation_2140617215897862165:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2140617215898763286]' derivation='User' name='[usr:Calculation_2140617215898763286:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2140617215899283480]' derivation='User' name='[usr:Calculation_2140617215899283480:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Positive% Diff (copy)_2140617215899095063]' derivation='User' name='[usr:Positive% Diff (copy)_2140617215899095063:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YoY Sales % (copy)_2140617215897235476]' derivation='User' name='[usr:YoY Sales % (copy)_2140617215897235476:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Category Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_2140617215888695314])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Category Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Category Name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Cardio Equipment&quot;</bucket>
+              <bucket>&quot;Fishing&quot;</bucket>
+              <bucket>&quot;Camping &amp; Hiking&quot;</bucket>
+              <bucket>&quot;Water Sports&quot;</bucket>
+              <bucket>&quot;Cleats&quot;</bucket>
+              <bucket>&quot;Women&apos;s Apparel&quot;</bucket>
+              <bucket>&quot;Men&apos;s Footwear&quot;</bucket>
+              <bucket>&quot;Indoor/Outdoor Games&quot;</bucket>
+              <bucket>&quot;Computers&quot;</bucket>
+              <bucket>&quot;Shop By Sport&quot;</bucket>
+              <bucket>&quot;Cameras&quot;</bucket>
+              <bucket>&quot;Children&apos;s Clothing&quot;</bucket>
+              <bucket>&quot;Crafts&quot;</bucket>
+              <bucket>&quot;Garden&quot;</bucket>
+              <bucket>&quot;Consumer Electronics&quot;</bucket>
+              <bucket>&quot;Kids&apos; Golf Clubs&quot;</bucket>
+              <bucket>&quot;DVDs&quot;</bucket>
+              <bucket>&quot;Music&quot;</bucket>
+              <bucket>&quot;Health and Beauty&quot;</bucket>
+              <bucket>&quot;Golf Gloves&quot;</bucket>
+              <bucket>&quot;Women&apos;s Clothing&quot;</bucket>
+              <bucket>&quot;Strength Training&quot;</bucket>
+              <bucket>&quot;Golf Shoes&quot;</bucket>
+              <bucket>&quot;Sporting Goods&quot;</bucket>
+              <bucket>&quot;Men&apos;s Golf Clubs&quot;</bucket>
+              <bucket>&quot;Electronics&quot;</bucket>
+              <bucket>&quot;Boxing &amp; MMA&quot;</bucket>
+              <bucket>&quot;Women&apos;s Golf Clubs&quot;</bucket>
+              <bucket>&quot;Men&apos;s Clothing&quot;</bucket>
+              <bucket>&quot;Hunting &amp; Shooting&quot;</bucket>
+              <bucket>&quot;Basketball&quot;</bucket>
+              <bucket>&quot;Soccer&quot;</bucket>
+              <bucket>&quot;Trade-In&quot;</bucket>
+              <bucket>&quot;Lacrosse&quot;</bucket>
+              <bucket>&quot;Baseball &amp; Softball&quot;</bucket>
+              <bucket>&quot;Pet Supplies&quot;</bucket>
+              <bucket>&quot;As Seen on  TV!&quot;</bucket>
+              <bucket>&quot;Golf Apparel&quot;</bucket>
+              <bucket>&quot;Girls&apos; Apparel&quot;</bucket>
+              <bucket>&quot;Accessories&quot;</bucket>
+              <bucket>&quot;Hockey&quot;</bucket>
+              <bucket>&quot;Books&quot;</bucket>
+              <bucket>&quot;Baby&quot;</bucket>
+              <bucket>&quot;Golf Bags &amp; Carts&quot;</bucket>
+              <bucket>&quot;Golf Balls&quot;</bucket>
+              <bucket>&quot;Fitness Accessories&quot;</bucket>
+              <bucket>&quot;Video Games&quot;</bucket>
+              <bucket>&quot;Tennis &amp; Racquet&quot;</bucket>
+              <bucket>&quot;CDs&quot;</bucket>
+              <bucket>&quot;Toys&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Category Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' scope='cols' value='false' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:YoY Sales % (copy)_2140617215897235476:qk]' value='p0.00%' />
+            <format attr='text-align' value='auto' />
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' value='Tableau Semibold' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Category Name:nk]' value='Tableau Medium' />
+            <format attr='text-align' value='auto' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-family' value='Tableau Medium' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e15759' fontname='Tableau Semibold'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Positive% Diff (copy)_2140617215899095063:nk]>]]></run>
+                <run fontname='Tableau Semibold'>Æ </run>
+                <run fontcolor='#59a14f' fontname='Tableau Semibold'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215898763286:nk]>]]></run>
+                <run fontcolor='#606b76' fontname='Tableau Semibold'><![CDATA[ <[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215899283480:nk]>]]></run>
+                <run fontname='Tableau Semibold'><![CDATA[ <[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:YoY Sales % (copy)_2140617215897235476:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215897862165:nk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:YoY Sales % (copy)_2140617215897235476:qk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Positive% Diff (copy)_2140617215899095063:nk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215898763286:nk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215899283480:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#e15759' fontname='Tableau Semibold'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Positive% Diff (copy)_2140617215899095063:nk]>]]></run>
+                <run fontname='Tableau Semibold'>Æ </run>
+                <run fontcolor='#59a14f' fontname='Tableau Semibold'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215898763286:nk]>]]></run>
+                <run fontcolor='#606b76' fontname='Tableau Semibold'><![CDATA[ <[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215899283480:nk]>]]></run>
+                <run fontname='Tableau Semibold'><![CDATA[ <[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:YoY Sales % (copy)_2140617215897235476:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0'>&lt;</run>
+                <run fontalignment='0'>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]</run>
+                <run fontalignment='0'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Category Name:nk]</rows>
+        <cols>([federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk] + [federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk])</cols>
+      </table>
+      <simple-id uuid='{D826FD25-669B-4101-9BF5-0EDBCC25F2B3}' />
+    </worksheet>
+    <worksheet name='Market Share by Sales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_2140617215887990799]' role='measure' type='quantitative' user:unnamed='Market Share by Sales'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_2140617215888052241]' role='measure' type='quantitative' user:unnamed='Market Share by Sales'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='YTD Sales' datatype='real' name='[Calculation_2140617215888695314]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Sales] END' />
+            </column>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2140617215888695314]' derivation='Sum' name='[pcto:sum:Calculation_2140617215888695314:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_2140617215888695314]' derivation='Sum' name='[sum:Calculation_2140617215888695314:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2140617215887990799]' derivation='User' name='[usr:Calculation_2140617215887990799:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2140617215888052241]' derivation='User' name='[usr:Calculation_2140617215888052241:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215888052241:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215888052241:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' value='Tableau Semibold' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' />
+              <wedge-size column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[pcto:sum:Calculation_2140617215888695314:qk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontname='Tableau Semibold'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[pcto:sum:Calculation_2140617215888695314:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7911050319671631' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215888052241:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>YTD Sales&#10;&lt;</run>
+                <run>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2413811683654785' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk] + [federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215888052241:qk])</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[pcto:sum:Calculation_2140617215888695314:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Africa&quot;</value>
+                <value>317804.59424479044</value>
+                <value>0.0</value>
+                <value>0.022523797407518167</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='66' y='23' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[pcto:sum:Calculation_2140617215888695314:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Pacific Asia&quot;</value>
+                <value>1173486.9900496856</value>
+                <value>0.0</value>
+                <value>0.083168663080680674</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-60' y='14' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215888695314:qk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215887990799:qk]</field>
+                  <field>[federated.00d990l1b8qw451dkp87o0s8wfk3].[pcto:sum:Calculation_2140617215888695314:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;USCA&quot;</value>
+                <value>29408.530441460003</value>
+                <value>0.0</value>
+                <value>0.0020842737761244119</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='2' y='31' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{5301849F-8543-495F-B57F-42079656A845}' />
+    </worksheet>
+    <worksheet name='Market Wise Customer Acquisition per Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Order Quantity]' role='measure' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month' name='[mn:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Quantity]' derivation='Sum' name='[rank:sum:Order Quantity:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[Market]' ordering-type='Field' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]' field-type='quantitative' fold='true' max='7' min='0' range-type='fixed' scope='rows' synchronized='true' type='space' />
+            <encoding attr='space' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]' field-type='quantitative' max='7' min='0' range-type='fixed' reverse='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[mn:Order Date:ok]' value='iLLL' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='div-level' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' value='130' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' id='legend-color' value='Tableau Medium' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' />
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold'>&lt;</run>
+                <run fontname='Tableau Semibold'>[federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2]</run>
+                <run fontname='Tableau Semibold'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2] + [federated.00d990l1b8qw451dkp87o0s8wfk3].[rank:sum:Order Quantity:qk:2])</rows>
+        <cols>[federated.00d990l1b8qw451dkp87o0s8wfk3].[mn:Order Date:ok]</cols>
+      </table>
+      <simple-id uuid='{36F1072D-E344-4FA0-BC87-9476F8DE3BE3}' />
+    </worksheet>
+    <worksheet name='Order Quantity KPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Bold'>Order Quantity</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='20'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215884816393:qk]>]]></run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#e15759' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:YoY Sales Margin (copy)_2140617215885234188:nk]><[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YoY Sales (copy)_2140617215885377549:qk]> vs PY]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Order Quantity]' role='measure' type='quantitative' />
+            <column caption='PYTD Quantity LOD ' datatype='integer' name='[PYTD Sales LOD  (copy)_2140617215885045771]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))-1} THEN [Order Quantity] END)}' />
+            </column>
+            <column caption='YTD Quantity LOD' datatype='integer' name='[YTD Sales LOD (copy)_2140617215884816393]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))} THEN [Order Quantity] END)}' />
+            </column>
+            <column caption='YoY Quantity %' datatype='real' name='[YoY Sales (copy)_2140617215885377549]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([YTD Sales LOD (copy)_2140617215884816393]-[PYTD Sales LOD  (copy)_2140617215885045771])/[PYTD Sales LOD  (copy)_2140617215885045771]' />
+            </column>
+            <column caption='YoY Quantity Margin' datatype='string' name='[YoY Sales Margin (copy)_2140617215885234188]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [YoY Sales (copy)_2140617215885377549]&gt;0 THEN &apos;▲&apos; ELSEIF [YoY Sales (copy)_2140617215885377549]&lt;0 THEN &apos;▼&apos; END' />
+            </column>
+            <column-instance column='[Order Date]' derivation='Max' name='[max:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YoY Sales Margin (copy)_2140617215885234188]' derivation='None' name='[none:YoY Sales Margin (copy)_2140617215885234188:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Quantity]' derivation='Sum' name='[sum:Order Quantity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YTD Sales LOD (copy)_2140617215884816393]' derivation='Sum' name='[sum:YTD Sales LOD (copy)_2140617215884816393:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YoY Sales (copy)_2140617215885377549]' derivation='Sum' name='[sum:YoY Sales (copy)_2140617215885377549:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[yr:Order Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[tmn:Order Date:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Order Quantity:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215884816393:qk]' value='Tableau Semibold' />
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Order Quantity:qk]' value='Tableau Semibold' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Order Quantity:qk]' value='c&quot;#&quot;#,##0,.00K;-&quot;#&quot;#,##0,.00K' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YoY Sales (copy)_2140617215885377549:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215884816393:qk]' value='c&quot;#&quot;#,##0;-&quot;#&quot;#,##0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:YoY Sales Margin (copy)_2140617215885234188:nk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Order Quantity:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YoY Sales (copy)_2140617215885377549:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:YoY Sales Margin (copy)_2140617215885234188:nk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215884816393:qk]' />
+            </encodings>
+            <label-data column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[max:Order Date:qk]' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='most-recent' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Order Quantity:qk]</rows>
+        <cols>[federated.00d990l1b8qw451dkp87o0s8wfk3].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{C3F25FFC-DB3F-4B47-A5F2-05D5CF401AE0}' />
+    </worksheet>
+    <worksheet name='Profit KPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>Profit</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='20'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215881990149:qk]>]]></run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#e15759' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:YoY Sales Margin (copy)_2140617215882723336:nk]><[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YoY Sales (copy)_2140617215882293255:qk]> vs PY]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column caption='PYTD Profit LOD ' datatype='real' name='[PYTD Sales LOD  (copy)_2140617215882141702]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))-1} THEN [Profit Per Order] END)}' />
+            </column>
+            <column datatype='real' name='[Profit Per Order]' role='measure' type='quantitative' />
+            <column caption='YTD Profit LOD ' datatype='real' name='[YTD Sales LOD (copy)_2140617215881990149]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))} THEN [Profit Per Order] END)}' />
+            </column>
+            <column caption='YoY Profit %' datatype='real' name='[YoY Sales (copy)_2140617215882293255]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([YTD Sales LOD (copy)_2140617215881990149]-[PYTD Sales LOD  (copy)_2140617215882141702])/[PYTD Sales LOD  (copy)_2140617215882141702]' />
+            </column>
+            <column caption='YoY Profit Margin ' datatype='string' name='[YoY Sales Margin (copy)_2140617215882723336]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [YoY Sales (copy)_2140617215882293255]&gt;0 THEN &apos;▲&apos; ELSEIF [YoY Sales (copy)_2140617215882293255]&lt;0 THEN &apos;▼&apos; END' />
+            </column>
+            <column-instance column='[Order Date]' derivation='Max' name='[max:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YoY Sales Margin (copy)_2140617215882723336]' derivation='None' name='[none:YoY Sales Margin (copy)_2140617215882723336:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profit Per Order]' derivation='Sum' name='[sum:Profit Per Order:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YTD Sales LOD (copy)_2140617215881990149]' derivation='Sum' name='[sum:YTD Sales LOD (copy)_2140617215881990149:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YoY Sales (copy)_2140617215882293255]' derivation='Sum' name='[sum:YoY Sales (copy)_2140617215882293255:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[yr:Order Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[tmn:Order Date:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Profit Per Order:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Profit Per Order:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Profit Per Order:qk]' value='Tableau Semibold' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215881990149:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YoY Sales (copy)_2140617215882293255:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Profit Per Order:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YTD Sales LOD (copy)_2140617215881990149:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:YoY Sales (copy)_2140617215882293255:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:YoY Sales Margin (copy)_2140617215882723336:nk]' />
+            </encodings>
+            <label-data column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[max:Order Date:qk]' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='most-recent' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Profit Per Order:qk]</rows>
+        <cols>[federated.00d990l1b8qw451dkp87o0s8wfk3].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{5A3493B0-2217-4F40-947A-3D181B64CFF8}' />
+    </worksheet>
+    <worksheet name='Sales KPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Tableau Bold'>Sales</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215874969600:qk]>]]></run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#e15759' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Calculation_2140617215880486916:nk]>]]></run>
+            <run fontalignment='1' fontcolor='#e15759' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215878656003:qk]> vs PY]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+            <column caption='YTD Sales LOD' datatype='real' name='[Calculation_2140617215874969600]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))} THEN [Sales] END)}' />
+            </column>
+            <column caption='YoY Sales %' datatype='real' name='[Calculation_2140617215878656003]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_2140617215874969600]-[YTD Sales LOD (copy)_2140617215878426626])/[YTD Sales LOD (copy)_2140617215878426626]' />
+            </column>
+            <column caption='YoY Sales Margin' datatype='string' name='[Calculation_2140617215880486916]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_2140617215878656003]&gt;0 THEN &apos;▲&apos; ELSEIF [Calculation_2140617215878656003]&lt;0 THEN &apos;▼&apos; END' />
+            </column>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='PYTD Sales LOD ' datatype='real' name='[YTD Sales LOD (copy)_2140617215878426626]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED : SUM(IF YEAR([Order Date]) = {FIXED : MAX(YEAR([Order Date]))-1} THEN [Sales] END)}' />
+            </column>
+            <column-instance column='[Order Date]' derivation='Max' name='[max:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2140617215880486916]' derivation='None' name='[none:Calculation_2140617215880486916:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2140617215874969600]' derivation='Sum' name='[sum:Calculation_2140617215874969600:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2140617215878656003]' derivation='Sum' name='[sum:Calculation_2140617215878656003:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]</column>
+            <column>[federated.00d990l1b8qw451dkp87o0s8wfk3].[yr:Order Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[tmn:Order Date:qk]' scope='cols' value='false' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+            <format attr='text-format' data-class='total' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]' value='c&quot;$&quot;#,##0,,.00M' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215874969600:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+            <format attr='text-format' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215878656003:qk]' value='p0.00%' />
+            <format attr='font-family' field='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215874969600:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Calculation_2140617215878656003:qk]' />
+              <lod column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Calculation_2140617215880486916:nk]' />
+            </encodings>
+            <label-data column='[federated.00d990l1b8qw451dkp87o0s8wfk3].[max:Order Date:qk]' />
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold'>&lt;</run>
+                <run fontname='Tableau Semibold'>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]</run>
+                <run fontname='Tableau Semibold'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='most-recent' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#000000' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00d990l1b8qw451dkp87o0s8wfk3].[sum:Sales:qk]</rows>
+        <cols>[federated.00d990l1b8qw451dkp87o0s8wfk3].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{D73B5DCA-4DE5-4908-AFFB-19443F78AA14}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Tableau Bold' fontsize='22'>ECOMMERCE SALES DASHBOARD</run>
+            <run> | </run>
+            <run fontcolor='#4e79a7' fontname='Tableau Bold' fontsize='15'>YTD SALES ANALYSIS</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='850' maxwidth='1600' minheight='850' minwidth='1600' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Dataco (Abhijit database)_Datac (Dataco database)' name='federated.00d990l1b8qw451dkp87o0s8wfk3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.00d990l1b8qw451dkp87o0s8wfk3'>
+        <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+        <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98118' id='33' param='horz' type-v2='layout-flow' w='99000' x='500' y='941'>
+            <zone h='98118' id='30' param='horz' type-v2='layout-flow' w='99000' x='500' y='941'>
+              <zone h='98118' id='25' param='horz' type-v2='layout-flow' w='99000' x='500' y='941'>
+                <zone h='98118' id='23' param='horz' type-v2='layout-flow' w='99000' x='500' y='941'>
+                  <zone h='98118' id='20' param='horz' type-v2='layout-flow' w='99000' x='500' y='941'>
+                    <zone h='98118' id='17' param='horz' type-v2='layout-flow' w='99000' x='500' y='941'>
+                      <zone h='98118' id='15' type-v2='layout-basic' w='99000' x='500' y='941'>
+                        <zone h='35529' id='5' param='vert' type-v2='layout-flow' w='26250' x='500' y='10000'>
+                          <zone h='35529' id='11' name='Sales KPI' w='26250' x='500' y='10000'>
+                            <layout-cache minheight='221' type-h='scalable' type-w='fixed' />
+                            <zone-style>
+                              <format attr='border-color' value='#000000' />
+                              <format attr='border-style' value='none' />
+                              <format attr='border-width' value='0' />
+                              <format attr='margin' value='4' />
+                              <format attr='background-color' value='#ddebf0' />
+                            </zone-style>
+                          </zone>
+                        </zone>
+                        <zone h='35529' id='12' name='Profit KPI' w='23250' x='26750' y='10000'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#f5eddc' />
+                          </zone-style>
+                        </zone>
+                        <zone h='9059' id='7' type-v2='title' w='99000' x='500' y='941'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                        <zone h='35529' id='13' name='Order Quantity KPI' w='24120' x='50000' y='10000'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#dfedeb' />
+                          </zone-style>
+                        </zone>
+                        <zone h='35529' id='14' name='Market Share by Sales' w='25380' x='74120' y='10000'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#f5eddc' />
+                          </zone-style>
+                        </zone>
+                        <zone h='53530' id='18' name='Category Wise YTD vs PYTD' w='49500' x='500' y='45529'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#dfedeb' />
+                          </zone-style>
+                        </zone>
+                        <zone h='53530' id='21' name='Market Wise Customer Acquisition per Month' w='49500' x='50000' y='45529'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#f5eddc' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='16353' id='26' name='Category Wise YTD vs PYTD' pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215897862165:nk]' type-v2='color' w='8750' x='34875' y='79176' />
+        <zone h='3529' id='27' leg-item-layout='horz' name='Market Wise Customer Acquisition per Month' pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' show-title='false' type-v2='color' w='40750' x='56750' y='51294' />
+        <zone h='118' id='28' type-v2='empty' w='98188' x='688' y='9412'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#4e79a7' />
+          </zone-style>
+        </zone>
+        <zone h='8118' id='31' mode='checkdropdown' name='Sales KPI' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' type-v2='filter' values='database' w='11688' x='69688' y='2235' />
+        <zone h='6118' id='34' mode='checkdropdown' name='Sales KPI' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]' type-v2='filter' values='database' w='11438' x='84750' y='2353' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontcolor='#e15759' fontname='Tableau Bold' fontsize='22'>ECOMMERCE SALES DASHBOARD</run>
+                <run> | </run>
+                <run fontcolor='#4e79a7' fontname='Tableau Bold' fontsize='15'>YTD SALES ANALYSIS</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='39' param='vert' type-v2='layout-flow' w='99000' x='500' y='941'>
+                <zone h='9059' id='7' type-v2='title' w='99000' x='500' y='941'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8118' id='31' mode='checkdropdown' name='Sales KPI' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' type-v2='filter' values='database' w='11688' x='69688' y='2235'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6118' id='34' mode='checkdropdown' name='Sales KPI' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Customer Segment:nk]' type-v2='filter' values='database' w='11438' x='84750' y='2353'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35529' id='11' is-fixed='true' name='Sales KPI' w='26250' x='500' y='10000'>
+                  <layout-cache minheight='221' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35529' id='12' is-fixed='true' name='Profit KPI' w='23250' x='26750' y='10000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5eddc' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35529' id='13' is-fixed='true' name='Order Quantity KPI' w='24120' x='50000' y='10000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35529' id='14' is-fixed='true' name='Market Share by Sales' w='25380' x='74120' y='10000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5eddc' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='53530' id='18' is-fixed='true' name='Category Wise YTD vs PYTD' w='49500' x='500' y='45529'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone h='16353' id='26' name='Category Wise YTD vs PYTD' pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215897862165:nk]' type-v2='color' w='8750' x='34875' y='79176'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='53530' id='21' is-fixed='true' name='Market Wise Customer Acquisition per Month' w='49500' x='50000' y='45529'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5eddc' />
+                  </zone-style>
+                </zone>
+                <zone h='3529' id='27' leg-item-layout='horz' name='Market Wise Customer Acquisition per Month' pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' show-title='false' type-v2='color' w='40750' x='56750' y='51294'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0CA05559-522D-4D9E-A073-6BD5B4802883}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sales KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{657E10C9-A5DB-4882-8AAB-419A708D6C4F}' />
+    </window>
+    <window class='worksheet' name='Profit KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{55EAC078-CB2E-4381-880B-5C68BC7928A5}' />
+    </window>
+    <window class='worksheet' name='Order Quantity KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A0857755-9DED-4083-A1E8-EA52FA29E9FF}' />
+    </window>
+    <window class='worksheet' name='Market Share by Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='236'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{672C39EA-9C07-4138-8838-30C219767A45}' />
+    </window>
+    <window class='worksheet' name='Category Wise YTD vs PYTD'>
+      <cards>
+        <edge name='left'>
+          <strip size='212'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='33'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[usr:Calculation_2140617215897862165:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{56039F76-D231-448D-B745-4059ED47D3BA}' />
+    </window>
+    <window class='worksheet' name='Market Wise Customer Acquisition per Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.00d990l1b8qw451dkp87o0s8wfk3].[none:Market:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{660DB55A-A6F1-4144-92BC-7B0FA4EECBC8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Category Wise YTD vs PYTD'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Market Share by Sales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Market Wise Customer Acquisition per Month'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Order Quantity KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Profit KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{B6DF6986-8048-4F40-A779-72251F1683DA}' />
+    </window>
+  </windows>
+</workbook>
