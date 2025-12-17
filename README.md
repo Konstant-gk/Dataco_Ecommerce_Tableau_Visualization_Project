@@ -32,11 +32,6 @@ The primary objectives of this project were to:
 - **Tableau Calculated Fields**: Advanced calculations for custom metrics and KPIs
 - **Tableau LOD Expressions**: Level-of-detail calculations for complex aggregations
 
-### Data Analysis
-- **Excel/CSV Data Source**: Raw e-commerce transaction data
-- **Data Cleaning & Preparation**: Data preprocessing and transformation
-- **Statistical Analysis**: Trend analysis, comparative analysis, and performance metrics
-
 ### Design & User Experience
 - **Dashboard Design Principles**: Layout optimization and visual hierarchy
 - **Color Theory**: Strategic use of color for data communication
@@ -105,34 +100,4 @@ The interactive dashboard is available on Tableau Public:
 
 [Dataco E-Commerce Visualization Dashboard](https://public.tableau.com/app/profile/konstantinos.gkaravelos/viz/Dataco_Ecommerce_Visualization/Dashboard1)
 
-## Skills Demonstrated
 
-- **Data Visualization**: Advanced proficiency in Tableau Desktop for creating interactive dashboards
-- **Business Intelligence**: Ability to translate business requirements into analytical solutions
-- **Data Analysis**: Understanding of e-commerce metrics, KPIs, and business analytics
-- **Dashboard Design**: Application of design principles for effective data communication
-- **Calculated Fields**: Creation of complex calculations for custom metrics and KPIs
-- **LOD Expressions**: Implementation of level-of-detail calculations for advanced analytics
-- **Interactive Design**: Development of user-friendly dashboards with filters, parameters, and actions
-- **Data Storytelling**: Ability to present data insights in a clear, compelling, and actionable manner
-
-## Future Enhancements
-
-- Integration with live data sources for real-time dashboard updates
-- Additional advanced analytics including predictive modeling and forecasting
-- Mobile-optimized dashboard versions for on-the-go access
-- Additional drill-down capabilities and detailed analysis views
-- Integration with other business intelligence tools and data sources
-- Automated reporting and alerting capabilities
-
-## License
-
-This project is for portfolio and educational purposes.
-
-## Author
-
-Konstantinos Gkaravelos
-
-## Acknowledgments
-
-This project demonstrates proficiency in data visualization and business intelligence using Tableau, showcasing the ability to transform raw data into actionable business insights through effective dashboard design and advanced analytical techniques.
